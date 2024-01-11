@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct MyText: View {
+    
+    var textTitle: String
+    var textStyle: Font
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(textTitle)
+            .font(textStyle)
+            .padding()
     }
 }
 
 #Preview {
-    MyText()
+    MyText(textTitle: "Text Element", textStyle: .body)
 }
