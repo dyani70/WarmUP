@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		063CDF752B4D93960008BB8F /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CDF742B4D93960008BB8F /* SimpleView.swift */; };
 		065ABCD32B503081003BDE71 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCD22B503081003BDE71 /* Onboarding.swift */; };
+		065ABCD62B5187A8003BDE71 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCD52B5187A8003BDE71 /* ListLoop.swift */; };
 		06692ADF2B4ED3B0007E30BE /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692ADE2B4ED3B0007E30BE /* Layout.swift */; };
 		06692AE22B4ED660007E30BE /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692AE12B4ED660007E30BE /* MyButton.swift */; };
 		06692AE42B4EDD28007E30BE /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692AE32B4EDD27007E30BE /* MyText.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		063CDF742B4D93960008BB8F /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		065ABCD22B503081003BDE71 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		065ABCD52B5187A8003BDE71 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 		06692ADE2B4ED3B0007E30BE /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		06692AE12B4ED660007E30BE /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		06692AE32B4EDD27007E30BE /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065ABCD42B51878F003BDE71 /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				065ABCD52B5187A8003BDE71 /* ListLoop.swift */,
+			);
+			path = 02;
+			sourceTree = "<group>";
+		};
 		06692AE02B4ED3BD007E30BE /* 01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		06FB06242B4AE19C007C691D /* WarmUP */ = {
 			isa = PBXGroup;
 			children = (
+				065ABCD42B51878F003BDE71 /* 02 */,
 				06FB06252B4AE19C007C691D /* WarmUPApp.swift */,
 				06FB06272B4AE19C007C691D /* ContentView.swift */,
 				06FB06292B4AE1A0007C691D /* Assets.xcassets */,
@@ -167,6 +178,7 @@
 				06692AE22B4ED660007E30BE /* MyButton.swift in Sources */,
 				063CDF752B4D93960008BB8F /* SimpleView.swift in Sources */,
 				06FB06262B4AE19C007C691D /* WarmUPApp.swift in Sources */,
+				065ABCD62B5187A8003BDE71 /* ListLoop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
