@@ -13,6 +13,7 @@
 		065ABCD82B53A082003BDE71 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCD72B53A082003BDE71 /* Setting.swift */; };
 		065ABCDB2B557F37003BDE71 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCDA2B557F36003BDE71 /* Modal.swift */; };
 		065ABCDD2B56CEF1003BDE71 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCDC2B56CEF1003BDE71 /* Detail.swift */; };
+		065ABCDF2B56D256003BDE71 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065ABCDE2B56D256003BDE71 /* Navigation.swift */; };
 		06692ADF2B4ED3B0007E30BE /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692ADE2B4ED3B0007E30BE /* Layout.swift */; };
 		06692AE22B4ED660007E30BE /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692AE12B4ED660007E30BE /* MyButton.swift */; };
 		06692AE42B4EDD28007E30BE /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06692AE32B4EDD27007E30BE /* MyText.swift */; };
@@ -29,6 +30,7 @@
 		065ABCD72B53A082003BDE71 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		065ABCDA2B557F36003BDE71 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		065ABCDC2B56CEF1003BDE71 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		065ABCDE2B56D256003BDE71 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		06692ADE2B4ED3B0007E30BE /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		06692AE12B4ED660007E30BE /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		06692AE32B4EDD27007E30BE /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				065ABCDA2B557F36003BDE71 /* Modal.swift */,
 				065ABCDC2B56CEF1003BDE71 /* Detail.swift */,
+				065ABCDE2B56D256003BDE71 /* Navigation.swift */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				06692AE42B4EDD28007E30BE /* MyText.swift in Sources */,
 				065ABCDB2B557F37003BDE71 /* Modal.swift in Sources */,
 				06FB06282B4AE19C007C691D /* ContentView.swift in Sources */,
+				065ABCDF2B56D256003BDE71 /* Navigation.swift in Sources */,
 				06692ADF2B4ED3B0007E30BE /* Layout.swift in Sources */,
 				065ABCD32B503081003BDE71 /* Onboarding.swift in Sources */,
 				06692AE22B4ED660007E30BE /* MyButton.swift in Sources */,
