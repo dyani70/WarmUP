@@ -21,7 +21,6 @@ struct TabDetail2: View {
     var body: some View {
         ZStack{
             Color.blue.ignoresSafeArea()
-            Text("This is Detail2")
             
             Button {
                 
